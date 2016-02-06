@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.WebServlet;
-
+        
 @WebServlet(name="DatabaseServlet", urlPatterns={"/db"})
 public class DatabaseServlet extends HttpServlet {
 
